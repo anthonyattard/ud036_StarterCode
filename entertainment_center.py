@@ -1,7 +1,7 @@
 import fresh_tomatoes
 import media
 
-# Creates movie instances
+# This creates instances of the movie class.
 fight_club = media.Movie("Fight Club",
                          "https://upload.wikimedia.org/wikipedia/en/f/fc/Fight_Club_poster.jpg",
                          "https://www.youtube.com/watch?v=SUXWAEX2jlg")
@@ -27,7 +27,7 @@ the_conjuring = media.Movie("The Conjuring",
                           "https://www.youtube.com/watch?v=DtC1hTw7Rto")
 
 
-# Puts all of the movie instances into 1 list
+# This adds all of the movie instances into 1 list.
 movies = [fight_club, shawshank_redemption, waking_life, before_sunrise, the_big_short, the_conjuring]
-# Passes the list of movies to fresh_tomatoes to be processed
+# The list of movies is passed to fresh_tomatoes to be processed.
 fresh_tomatoes.open_movies_page(movies)
